@@ -1,0 +1,38 @@
+ Dirt Bike (Off-Road Motorcycle)
+Sport Bike
+Dual-Sport (Adventure-Sport Motorbike)
+ Cruiser
+Touring Bike (Dresser)
+Sport-Tourer
+SuperMotard/Supermoto
+ Standard Roadster/Naked Bike
+ Scooter
+Bagger
+ Bobber
+Retro-Classic/Vintage-Style Bikes
+Electric Motorcycle
+Moped
+ Hyperbike
+
+CREATE TABLE MotorcycleTypes (
+    TypeID INT PRIMARY KEY,
+    TypeName VARCHAR(100)
+);
+
+INSERT INTO MotorcycleTypes (TypeID, TypeName)
+VALUES 
+    (1, 'Dirt Bike (Off-Road Motorcycle)'),
+    (2, 'Sport Bike'),
+    (3, 'Dual-Sport (Adventure-Sport Motorbike)'),
+    (4, 'Cruiser'),
+    (5, 'Touring Bike (Dresser)'),
+    (6, 'Sport-Tourer'),
+    (7, 'SuperMotard/Supermoto'),
+    (8, 'Standard Roadster/Naked Bike'),
+    (9, 'Scooter'),
+    (10, 'Bagger'),
+    (11, 'Bobber'),
+    (12, 'Retro-Classic/Vintage-Style Bikes'),
+    (13, 'Electric Motorcycle'),
+    (14, 'Moped'),
+    (15, 'Hyperbike');
